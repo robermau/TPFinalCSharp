@@ -1,0 +1,13 @@
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.csprojAssemblyReference.cache
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.AssemblyInfoInputs.cache
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.AssemblyInfo.cs
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.exe
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.deps.json
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.runtimeconfig.json
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.runtimeconfig.dev.json
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.dll
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.pdb
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.dll
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.pdb
+C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.genruntimeconfig.cache
