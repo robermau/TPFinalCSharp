@@ -11,3 +11,9 @@ C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\
 C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.dll
 C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.pdb
 C:\Users\Rober\source\repos\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.genruntimeconfig.cache
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.csprojAssemblyReference.cache
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.AssemblyInfoInputs.cache
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.AssemblyInfo.cs
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.csproj.CoreCompileInputs.cache
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.dll
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.pdb

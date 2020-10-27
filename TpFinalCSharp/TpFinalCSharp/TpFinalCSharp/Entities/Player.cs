@@ -14,13 +14,13 @@ namespace TpFinalCSharp.Entities
         protected Damage magicalDamage;
         protected Protection protection;
 
-        protected Player(string name, double life, double strartLife,
-            bool isDead, double fisicalDamage, Damage magicalDamage, Protection protection)
+        protected Player(string name, double life,
+            double fisicalDamage, Damage magicalDamage, Protection protection)
         {
             this.name = name;
             this.life = life;
-            this.strartLife = strartLife;
-            this.isDead = isDead;
+            this.strartLife = life;
+            this.isDead = false;
             this.fisicalDamage = fisicalDamage;
             this.magicalDamage = magicalDamage;
             this.protection = protection;

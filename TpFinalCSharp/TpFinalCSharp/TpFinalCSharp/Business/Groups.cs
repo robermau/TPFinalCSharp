@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TpFinalCSharp.Entities;
 
@@ -15,7 +16,11 @@ namespace TpFinalCSharp.Business
         }
         public void deletePlayer(Player player)
         {
-            listOfPlayers.remove(player);
+            listOfPlayers.Remove(player);
+        }
+        public Player FirstPlayer()
+        {
+            return listOfPlayers.First();
         }
     }
 }

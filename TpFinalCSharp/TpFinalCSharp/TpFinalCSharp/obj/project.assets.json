@@ -8,24 +8,27 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\jfuensalida\\.nuget\\packages\\": {},
+    "C:\\Users\\Juan\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp.csproj",
+      "projectUniqueName": "E:\\proyectos subidos a GIT\\trabajo práctico ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp.csproj",
       "projectName": "TpFinalCSharp",
-      "projectPath": "D:\\Ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp.csproj",
-      "packagesPath": "C:\\Users\\jfuensalida\\.nuget\\packages\\",
-      "outputPath": "D:\\Ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\obj\\",
+      "projectPath": "E:\\proyectos subidos a GIT\\trabajo práctico ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp.csproj",
+      "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
+      "outputPath": "E:\\proyectos subidos a GIT\\trabajo práctico ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jfuensalida\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -48,10 +51,21 @@
     "frameworks": {
       "netcoreapp3.1": {
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
