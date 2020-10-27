@@ -10,19 +10,25 @@ namespace TpFinalCSharp.Entities
         {
         }
 
-        public override void recieveDamage(Damage damage)
+        public override double recieveDamage(Damage damage)
         {
             double hardDamage = 2;
-            lessDamage = 0.35;
+            double lessDamage = 0.35;
+            double totalDamage;
+            switch (damage.getType())
+            {
+                case "Water":
+                    totalDamage = damage.doDamage() * hardDamage;
+                    break;
+                case "Curarse":
+                    totalDamage = damage.doDamage() * lessDamage;
+                    break;
+                default:
+                    totalDamage = damage.doDamage();
+                    break;
+            }
 
-           if(damage.getType() =="Water")
-            {
-                return damage.doDamage() * hardDamage;
-            }
-            else
-            {
-                return da
-            }
+            return totalDamage;
         }
     }
 }

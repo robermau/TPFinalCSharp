@@ -14,6 +14,5 @@ namespace TpFinalCSharp.Entities
         }
 
         public abstract double recieveDamage(Damage damage);
-        public abstract string getType();
     }
 }
