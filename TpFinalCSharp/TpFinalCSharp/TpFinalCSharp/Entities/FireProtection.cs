@@ -6,13 +6,23 @@ namespace TpFinalCSharp.Entities
 {
     class FireProtection : Protection
     {
-        public FireProtection(string name, double qualityShield) : base(name, qualityShield)
+        public FireProtection(double qualityShield) : base(qualityShield)
         {
         }
 
-        public override void getShield()
+        public override void recieveDamage(Damage damage)
         {
-            return qualityShield;
+            double hardDamage = 2;
+            lessDamage = 0.35;
+
+           if(damage.getType() =="Water")
+            {
+                return damage.doDamage() * hardDamage;
+            }
+            else
+            {
+                return da
+            }
         }
     }
 }

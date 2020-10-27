@@ -19,5 +19,9 @@ namespace TpFinalCSharp.Entities
         {
             return name;
         }
+        public override string getType()
+        {
+            return "Fire";
+        }
     }
 }

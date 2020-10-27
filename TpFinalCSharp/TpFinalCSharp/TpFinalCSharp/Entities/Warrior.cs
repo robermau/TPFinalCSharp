@@ -13,9 +13,9 @@ namespace TpFinalCSharp.Entities
         {
         }
 
-        public override double castDamage()
+        public override Damage castDamage()
         {
-            return magicalDamage.doDamage();
+            return magicalDamage;
         }
 
         public override double doDamage()
@@ -23,13 +23,6 @@ namespace TpFinalCSharp.Entities
             return fisicalDamage;
         }
 
-        public override void recibeDamage(Damage damage)
-        {
-            life -= damage.doDamage();
-        }
-        private bool checkLife()
-        {
-            return life == 0;
-        }
+        
     }
 }

@@ -6,15 +6,14 @@ namespace TpFinalCSharp.Entities
 {
     public abstract class Protection
     {
-        protected string name;
         protected double qualityShield;
 
-        public Protection(string name, double qualityShield)
+        public Protection(double qualityShield)
         {
-            this.name = name;
             this.qualityShield = qualityShield;
         }
 
-        public abstract double getShield();
+        public abstract double recieveDamage(Damage damage);
+        public abstract string getType();
     }
 }

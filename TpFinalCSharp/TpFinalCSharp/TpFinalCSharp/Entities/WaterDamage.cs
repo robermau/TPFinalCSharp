@@ -4,9 +4,9 @@ using System.Text;
 
 namespace TpFinalCSharp.Entities
 {
-    public class IceDamage : Damage
+    public class WaterDamage : Damage
     {
-        public IceDamage(string name, double qualityDamage) : base(name, qualityDamage)
+        public WaterDamage(string name, double qualityDamage) : base(name, qualityDamage)
         {
         }
 
@@ -14,10 +14,14 @@ namespace TpFinalCSharp.Entities
         {
             return qualityDamage;
         }
-
+        
         public override string getName()
         {
             return name;
+        }
+        public override string getType()
+        {
+            return "Water";
         }
     }
 }

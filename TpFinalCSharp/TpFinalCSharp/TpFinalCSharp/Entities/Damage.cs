@@ -17,5 +17,6 @@ namespace TpFinalCSharp.Entities
 
         public abstract string getName();
         public abstract double doDamage();
+        public abstract string getType();
     }
 }

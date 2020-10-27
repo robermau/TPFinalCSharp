@@ -26,7 +26,10 @@ namespace TpFinalCSharp.Entities
             this.protection = protection;
         }
 
-        public abstract void recibeDamage(Damage damage);
+        public void recibeDamage(Damage damage)
+        {
+            life -= protection.getDamage(damage);
+        }
         public abstract double doDamage();
         public abstract double castDamage();
     }
