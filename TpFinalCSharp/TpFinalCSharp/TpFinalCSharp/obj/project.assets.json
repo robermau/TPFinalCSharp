@@ -8,20 +8,27 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Rober\\.nuget\\packages\\": {}
+    "C:\\Users\\Juan\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rober\\source\\repos\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp.csproj",
+      "projectUniqueName": "E:\\proyectos subidos a GIT\\trabajo práctico ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp.csproj",
       "projectName": "TpFinalCSharp",
-      "projectPath": "C:\\Users\\Rober\\source\\repos\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp.csproj",
-      "packagesPath": "C:\\Users\\Rober\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rober\\source\\repos\\TpFinalCSharp\\TpFinalCSharp\\obj\\",
+      "projectPath": "E:\\proyectos subidos a GIT\\trabajo práctico ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp.csproj",
+      "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
+      "outputPath": "E:\\proyectos subidos a GIT\\trabajo práctico ayuda\\TPFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\TpFinalCSharp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -58,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
