@@ -4,9 +4,9 @@ using System.Text;
 
 namespace TpFinalCSharp.Entities
 {
-    public class FireDamage : Damage
+    class LightingDamage : Damage
     {
-        public FireDamage(string name, double qualityDamage) : base(name, qualityDamage)
+        public LightingDamage(string name, double qualityDamage) : base(name, qualityDamage)
         {
         }
 
@@ -19,9 +19,9 @@ namespace TpFinalCSharp.Entities
         {
             return name;
         }
-        public override string getType()
+        public override Types.TypeELements getType()
         {
-            return "Fire";
+            return Types.TypeELements.Lighting;
         }
     }
 }

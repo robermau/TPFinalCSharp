@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TpFinalCSharp.Entities
+{
+    public class WaterDamage : Damage
+    {
+        public WaterDamage(string name, double qualityDamage) : base(name, qualityDamage)
+        {
+        }
+
+        public override double doDamage()
+        {
+            return qualityDamage;
+        }
+        
+        public override string getName()
+        {
+            return name;
+        }
+        public override Types.TypeELements getType()
+        {
+            return Types.TypeELements.Water;
+        }
+    }
+}
