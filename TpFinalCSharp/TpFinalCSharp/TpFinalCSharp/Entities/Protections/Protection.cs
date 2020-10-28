@@ -22,5 +22,9 @@ namespace TpFinalCSharp.Entities
         public abstract double recieveDamage(Damage damage);
        
         public int AditionalShield { get => aditionalShield; set => aditionalShield = value; }
+        public int getShield()
+        {
+            return qualityShield;
+        }
     }
 }

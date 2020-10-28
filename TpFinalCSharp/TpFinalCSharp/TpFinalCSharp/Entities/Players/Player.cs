@@ -9,7 +9,7 @@ namespace TpFinalCSharp.Entities
     {
         protected string name;
         protected double life;
-        protected double strartLife;
+        protected double startLife;
         protected bool isDead;
         protected double fisicalDamage;
         protected Damage magicalDamage;
@@ -21,7 +21,7 @@ namespace TpFinalCSharp.Entities
         {
             this.name = name;
             this.life = life;
-            this.strartLife = life;
+            this.startLife = life;
             this.isDead = false;
             this.fisicalDamage = fisicalDamage;
             this.magicalDamage = magicalDamage;
@@ -33,7 +33,7 @@ namespace TpFinalCSharp.Entities
             return name;
         }
 
-        public int getLife()
+        public double getLife()
         {
             return life;
         }
@@ -48,6 +48,10 @@ namespace TpFinalCSharp.Entities
         public void setAditionalShield(int shield)
         {
             protection.AditionalShield = shield;
+        }
+        public int getProtection()
+        {
+            return protection.getShield();
         }
         public string getNameMagicalAttack()
         {
@@ -75,16 +79,30 @@ namespace TpFinalCSharp.Entities
             }
         }
 
-        public Damage doMagicalDamage()
+        public double doMagicalDamage()
         {
-            return magicalDamage;
+            return magicalDamage.doDamage();
         }
 
+        public string getType()
+        {
+            switch (magicalDamage.getType())
+            {
+                case Types.TypeELements.Fire:
+                    return "Fire";
+                case Types.TypeELements.Water:
+                    return "Water";
+                case Types.TypeELements.Lighting:
+                    return "Lighting";
+                default:
+                    return "not Founded";
+            }
+        }
         public double doFisicalDamage()
         {
             return fisicalDamage;
         }
 
-        public abstract string getType();
+        public abstract string getClass();
     }
 }

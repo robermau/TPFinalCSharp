@@ -17,3 +17,10 @@ E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\T
 E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.csproj.CoreCompileInputs.cache
 E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.dll
 E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.pdb
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.exe
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.deps.json
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.runtimeconfig.json
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.runtimeconfig.dev.json
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.dll
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\bin\Debug\netcoreapp3.1\TpFinalCSharp.pdb
+E:\proyectos subidos a GIT\trabajo práctico ayuda\TPFinalCSharp\TpFinalCSharp\TpFinalCSharp\TpFinalCSharp\obj\Debug\netcoreapp3.1\TpFinalCSharp.genruntimeconfig.cache

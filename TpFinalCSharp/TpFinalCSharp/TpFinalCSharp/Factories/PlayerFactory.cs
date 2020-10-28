@@ -8,9 +8,9 @@ namespace TpFinalCSharp.Factories
 {
     class PlayerFactory
     {   
-        public static Player createPlayer(string name, Types.TypePlayers typePlayer,Protection armor, double fisicalAttack,Damage magicalAttack)
+        public static Player CreatePlayer(string name, Types.TypePlayers typePlayer,Protection armor, double fisicalAttack,Damage magicalAttack)
         {
-            int life = 100;
+            int life = 20;
             switch (typePlayer)
             {
                 case Types.TypePlayers.Warrior:
@@ -25,6 +25,9 @@ namespace TpFinalCSharp.Factories
                 case Types.TypePlayers.Paladin:
                     Paladin paladin = new Paladin(name,life,fisicalAttack,magicalAttack,armor);
                     return paladin;
+                default:
+                    Warrior warriorDefault = new Warrior(name, life, fisicalAttack, magicalAttack, armor);
+                    return warriorDefault;
             }
         }
     }

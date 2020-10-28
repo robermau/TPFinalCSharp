@@ -6,7 +6,7 @@ namespace TpFinalCSharp.Entities.Protections
 {
     class LightingProtection : Protection
     {
-        public LightingProtection(double qualityShield) : base(qualityShield) { }
+        public LightingProtection(int qualityShield) : base(qualityShield) { }
 
         public override double recieveDamage(Damage damage)
         {

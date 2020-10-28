@@ -4,13 +4,13 @@ using System.Text;
 
 namespace TpFinalCSharp.Entities
 {
-    class Paladin
+    class Paladin : Player
     {
         public Paladin(string name, double life,
             double fisicalDamage, Damage magicalDamage, Protection protection)
             : base(name, life, fisicalDamage, magicalDamage, protection){ }
 
-        public override string getType()
+        public override string getClass()
         {
             return "Paladin";
         }

@@ -6,7 +6,7 @@ namespace TpFinalCSharp.Entities.Protections
 {
     class WaterProtection : Protection
     {
-        public WaterProtection(double qualityShield) : base(qualityShield) { }
+        public WaterProtection(int qualityShield) : base(qualityShield) { }
 
         public override double recieveDamage(Damage damage)
         {

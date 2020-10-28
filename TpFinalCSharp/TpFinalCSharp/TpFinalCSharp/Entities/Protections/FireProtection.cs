@@ -6,7 +6,7 @@ namespace TpFinalCSharp.Entities
 {
     class FireProtection : Protection
     {
-        public FireProtection(double qualityShield) : base(qualityShield) {}
+        public FireProtection(int qualityShield) : base(qualityShield) {}
 
         public override double recieveDamage(Damage damage)
         {

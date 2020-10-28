@@ -12,14 +12,17 @@ namespace TpFinalCSharp.Factories
             switch (typeELements)
             {
                 case Types.TypeELements.Fire:
-                    FireDamage fireDamage = new FireDamage("Firebolt", setDices());
+                    FireDamage fireDamage = new FireDamage("Firebolt", DiceFactory.setDices());
                     return fireDamage;
                 case Types.TypeELements.Water:
-                    WaterDamage waterDamage = new WaterDamage("Waterwipe", setDices());
+                    WaterDamage waterDamage = new WaterDamage("Waterwipe", DiceFactory.setDices());
                     return waterDamage;
                 case Types.TypeELements.Lighting:
-                    LightingDamage lightingDamage = new LightingDamage("Thundershock", setDices());
+                    LightingDamage lightingDamage = new LightingDamage("Thundershock", DiceFactory.setDices());
                     return lightingDamage;
+                default:
+                    FireDamage fireDamageDefault = new FireDamage("Firebolt", DiceFactory.setDices());
+                    return fireDamageDefault;
             }
         }
     }

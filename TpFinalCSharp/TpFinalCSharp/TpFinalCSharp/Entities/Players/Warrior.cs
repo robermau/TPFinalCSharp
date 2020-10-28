@@ -9,7 +9,7 @@ namespace TpFinalCSharp.Entities
         public Warrior(string name, double life, double fisicalDamage, Damage magicalDamage, 
             Protection protection) : base(name, life, fisicalDamage, magicalDamage, protection) { }
         
-        public override string getType()
+        public override string getClass()
         {
             return "Warrior";
         }

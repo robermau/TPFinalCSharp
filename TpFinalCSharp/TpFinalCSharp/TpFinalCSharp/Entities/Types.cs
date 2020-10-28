@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TpFinalCSharp.Entities
 {
-    class Types
+    public class Types
     {
         public enum TypePlayers { Warrior, Mage, Hunter, Paladin }
         
