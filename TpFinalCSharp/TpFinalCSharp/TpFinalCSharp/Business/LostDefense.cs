@@ -11,7 +11,7 @@ namespace TpFinalCSharp.Business
             if (player.UseDefense)
             {
                 player.UseDefense = false;
-                Console.WriteLine("the Player {0} lost his add defense.");
+                Console.WriteLine("the Player {0} lost his add defense.",player.getName());
             }
         }
     }

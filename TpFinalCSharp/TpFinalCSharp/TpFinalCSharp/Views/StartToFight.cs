@@ -23,7 +23,7 @@ namespace TpFinalCSharp.Views
             if(dicePlayerOne >= dicePlayerTwo)
             {
                 Console.WriteLine("player one attack first!");
-                while (playerOne.isAlive() || playerTwo.isAlive())
+                while (playerOne.IsAlive() && playerTwo.IsAlive())
                 {
                     confirmAction(playerOne,playerTwo);
                     FisicalFights.fisicalDamagePlayerToPlayer(playerTwo, playerOne);
@@ -32,7 +32,7 @@ namespace TpFinalCSharp.Views
             else
             {
                 Console.WriteLine("player two attack first!");
-                while (playerOne.isAlive() || playerTwo.isAlive())
+                while (playerOne.IsAlive() && playerTwo.IsAlive())
                 {
                     FisicalFights.fisicalDamagePlayerToPlayer(playerTwo, playerOne);
                     confirmAction(playerOne, playerTwo);

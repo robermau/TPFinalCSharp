@@ -67,9 +67,9 @@ namespace TpFinalCSharp.Entities
             life -= protection.recieveDamage(damage);
         }
 
-        public bool isAlive()
+        public bool IsAlive()
         {
-            if(life > 0)
+            if(life <= 0)
             {
                 return true;
             }

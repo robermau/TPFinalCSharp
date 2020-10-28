@@ -10,7 +10,7 @@ namespace TpFinalCSharp.Business
     {
         public static void defense(Player player)
         {
-            Console.WriteLine("your dices for your aditional Shiels is:");
+            Console.WriteLine("your dices for your aditional Shield is:");
             player.UseDefense = true;
             player.setAditionalShield(DiceFactory.setDices());
         }
