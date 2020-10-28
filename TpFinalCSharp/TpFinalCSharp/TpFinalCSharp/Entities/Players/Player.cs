@@ -15,6 +15,7 @@ namespace TpFinalCSharp.Entities
         protected Damage magicalDamage;
         protected Protection protection;
         protected bool useDefense;
+        protected int mana;
 
         protected Player(string name, double life,
             double fisicalDamage, Damage magicalDamage, Protection protection)
@@ -26,6 +27,7 @@ namespace TpFinalCSharp.Entities
             this.fisicalDamage = fisicalDamage;
             this.magicalDamage = magicalDamage;
             this.protection = protection;
+            this.mana = 20;
         }
 
         public string getName()
@@ -53,8 +55,13 @@ namespace TpFinalCSharp.Entities
         {
             return protection.getShield();
         }
+        public int getMana()
+        {
+            return mana;
+        }
         public string getNameMagicalAttack()
         {
+            mana -= 2;
             return magicalDamage.getName();
         }
         public void recibeDamage(Damage damage)

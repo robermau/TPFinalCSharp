@@ -19,6 +19,7 @@ namespace TpFinalCSharp.Business
             {
                 playerProtect.recibeDamage(playerAttack.doMagicalDamage());
                 Console.WriteLine("Player {0} has {1} of life.", playerProtect.getName(), playerProtect.getLife());
+                Console.WriteLine("the mana of player {0} is {1}",playerProtect.getName(),playerProtect.getMana());
                 LostDefense.playerProtectedUseDefense(playerProtect);
             }
         }
